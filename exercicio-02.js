@@ -11,13 +11,6 @@ let products = [
     { name:'Monitor', price:200, quantity:3, colors:[] },
 ]
 
-/* 1. Adicione um novo produto ao array com as mesmas propriedades dos produtos
-existentes.
-2. Remova os produtos fora de estoque da matriz.
-3. Imprima no console a soma do estoque de todos os produtos.
-4. Imprima produtos com preço superior a um determinado valor.
-5. Imprima o nome de todos os produtos que tenham a letra ‘o’ em seu nome. */
-
 function addProduct(products, product) {
     products.push(product)
 }
